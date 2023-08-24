@@ -29,6 +29,12 @@ let users = [["admin01","123"],["admin02","234"],["admin03","345"]]
 //     }
     
 // })
+passEl.addEventListener("keypress", function(event){ //add keypress Enter login btn
+    if(event.key === "Enter"){                      //check if the Enter key of the keyboard is pressed
+        event.preventDefault()                     //run function preventdefault
+       document.getElementById("Loginbtn").click()//triger the buttom login
+    }
+})
 
 loginBtn.addEventListener("click", function(){
 
