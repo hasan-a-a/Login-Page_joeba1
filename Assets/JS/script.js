@@ -62,5 +62,6 @@ function second_page(){
 }
 registerEl.addEventListener("click",function(){
     window.location.replace("submit.html")
+    
 })
 
